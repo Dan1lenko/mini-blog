@@ -1,13 +1,12 @@
 // lib/firebase.js
 
-import config from "@/postcss.config.mjs";
 import { initializeApp, getApps } from "firebase/app";
 import { getAuth } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 // import { getAnalytics } from "firebase/analytics"; ❌ прибери
 
 const firebaseConfig = {
-  apiKey: process.env.FIREBASE_API_KEY, // ✅ виправлено
+  apiKey: "AIzaSyA5LtnZRPJ12JEGhjA-Yaw2h9Zq3UVlmmk",
   authDomain: "mini-blog-a4ab3.firebaseapp.com",
   projectId: "mini-blog-a4ab3",
   storageBucket: "mini-blog-a4ab3.appspot.com", // ✅ виправлено
